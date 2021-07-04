@@ -8,7 +8,7 @@ execute (client, message, args){
 
   const queue = client.distube.getQueue(message)
 
-  if(!message.member.voice.channel) return message.channel.send(" **Debes Estar En Un Canal De Voz** ")
+  if(!message.member.voice.channel) return message.channel.send(" **Debes Estar En Un Canal De Voz poto** ")
 
   if(message.guild.me.voice.chann && message.member.voice.channel.id !== message.guild.voice.channel.id) return message.channel.send(" **Debes Estar En Donde Estoy!** ")
 
