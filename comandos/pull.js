@@ -1,7 +1,7 @@
 module.exports = {
 name: "pull",
 owner: true,
-  async run(client, message, args){
+  async execute(client, message, args){
     let rama;
     if(args[0]) rama = args[0]
     else rama = "main"
