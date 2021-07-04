@@ -8,7 +8,7 @@ const Monitor = require('ping-monitor');
  
 keepAlive();
 
-//sex
+//sexo xd
 
 const fs = require('fs');
 let { readdirSync } = require('fs');
