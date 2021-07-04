@@ -2,6 +2,7 @@ module.exports = {
 name: "pull",
 owner: true,
   async execute(client, message, args){
+    if(!["609357260749144084", "700636569052250112"].includes(message.author.id)) return
     let rama;
     if(args[0]) rama = args[0]
     else rama = "main"
